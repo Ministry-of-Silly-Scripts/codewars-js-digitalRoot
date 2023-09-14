@@ -1,5 +1,10 @@
 function digitalRoot(n) {
-  return n;
+  let numStr = numberToString(n);
+  let sum = 0;
+  for (let idx = 0; idx < numStr.length; idx++) {
+    sum += stringToNumber(numStr[idx]);
+  }
+  return sum;
 }
 
 function numberToString(n) {

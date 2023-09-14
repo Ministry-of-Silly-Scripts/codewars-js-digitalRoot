@@ -15,9 +15,9 @@ describe('digitalRoot', () => {
     expect(digitalRoot(1)).toBe(1);
   });
 
-  // it('should return 2 to input equal to 11', () => {
-  //   expect(digitalRoot(11)).toBe(1);
-  // });
+  it('should return 2 to input equal to 11', () => {
+    expect(digitalRoot(11)).toBe(2);
+  });
 });
 
 describe('numberToString', () => {
