@@ -6,4 +6,8 @@ function numberToString(n) {
   return n.toString();
 }
 
-module.exports = { digitalRoot, numberToString };
+function stringToNumber(n) {
+  return parseInt(n);
+}
+
+module.exports = { digitalRoot, numberToString, stringToNumber };

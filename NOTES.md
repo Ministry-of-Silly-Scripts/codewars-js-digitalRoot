@@ -29,6 +29,7 @@ Examples
 - convert the input to string
   - create auxiliary function that receives a number as input and return a string
 - loop over digits
+  - create auxiliary function that receives a string as input and return a number
 - convert digit to int
 - accumulate the sum of the digits in a variable
 
@@ -56,4 +57,7 @@ Examples
 - it should return a number for any input ✅
 - auxiliary function numberToString:
   - it should return a string for any input ✅
-- it should return 1 for input equal to 1
+- it should return 1 for input equal to 1 ✅
+- it should return 2 for input equal to 11 🚧
+- auxiliary function stringToNumber:
+  - it should return a number for any input 
