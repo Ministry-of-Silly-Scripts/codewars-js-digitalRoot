@@ -26,6 +26,10 @@ Examples
 - sum of all the digit of a number
 
 ## Backlog
+- convert the input to string
+- loop over digits
+- convert digit to int
+- accumulate the sum of the digits in a variable
 
 ## Legend
 
@@ -43,4 +47,5 @@ Examples
   - update code/test files ✅
 - domain description ✅
 - perform the 'canary' test just to check if the structure works ✅
+- backlog ✅
 
