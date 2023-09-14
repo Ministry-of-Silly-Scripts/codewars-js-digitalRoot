@@ -61,3 +61,4 @@ Examples
   - it should return a number for any input ✅
 - it should return 2 for input equal to 11 ✅
 - refactor to incorporate both numberToString and stringToNumber to the digitalRoot function ✅
+- it should return 12345 for input equal to 15 ✅

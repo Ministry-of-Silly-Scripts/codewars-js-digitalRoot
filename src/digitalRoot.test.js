@@ -18,4 +18,8 @@ describe('digitalRoot', () => {
   it('should return 2 to input equal to 11', () => {
     expect(digitalRoot(11)).toBe(2);
   });
+
+  it('should return 15 to input equal to 12345', () => {
+    expect(digitalRoot(12345)).toBe(15);
+  });
 });
