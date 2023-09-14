@@ -10,6 +10,10 @@ describe('digitalRoot', () => {
   it('should return a number', () => {
     expect(typeof digitalRoot(1)).toBe('number');
   });
+
+  it('should return 1 to input equal to 1', () => {
+    expect(digitalRoot(1)).toBe(1);
+  });
 });
 
 describe('numberToString', () => {

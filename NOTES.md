@@ -56,3 +56,4 @@ Examples
 - it should return a number for any input ✅
 - auxiliary function numberToString:
   - it should return a string for any input ✅
+- it should return 1 for input equal to 1
