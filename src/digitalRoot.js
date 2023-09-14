@@ -1,16 +1,8 @@
 function digitalRoot(n) {
-  let numStr = n.toString();
-  let sum = n;
-
-  while (sum >= 10) {
-    sum = 0;
-    for (let ch in numStr) {
-      sum += parseInt(numStr[ch]);
-    }
-    numStr = sum.toString();
+  if (n < 10) {
+    return n;
   }
-
-  return sum;
+  return digitalRoot((n % 10) + digitalRoot(Math.floor(n / 10)));
 }
 
 module.exports = digitalRoot;

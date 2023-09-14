@@ -69,3 +69,4 @@ Examples
 - it should return 6 for input equal to 12345 ✅
 - it should return 1 for input equal to 10 ✅
 - refactored for loop ✅
+- refactored to use recursion ✅
