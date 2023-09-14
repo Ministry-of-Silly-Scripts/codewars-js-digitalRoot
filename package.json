@@ -1,7 +1,7 @@
 {
   "name": "digital-root",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sum of Digits / Digital Root kata from Code Wars",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",

@@ -1,4 +1,4 @@
-const hello = require('./hello');
+const hello = require('./digitalRoot');
 
 describe('hello', () => {
   it('should return hello', () => {
