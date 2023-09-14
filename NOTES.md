@@ -27,6 +27,7 @@ Examples
 
 ## Backlog
 - convert the input to string
+  - create auxiliary function that receives a number as input and return a string
 - loop over digits
 - convert digit to int
 - accumulate the sum of the digits in a variable
@@ -53,3 +54,5 @@ Examples
 ### Pomodoro 2 🍅:
 
 - it should return a number for any input ✅
+- auxiliary function numberToString:
+  - it should return a string for any input ✅

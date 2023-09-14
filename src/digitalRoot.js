@@ -2,4 +2,8 @@ function digitalRoot(n) {
   return n;
 }
 
-module.exports = digitalRoot;
+function numberToString(n) {
+  return n.toString();
+}
+
+module.exports = { digitalRoot, numberToString };
