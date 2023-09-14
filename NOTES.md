@@ -30,6 +30,7 @@ Examples
 - loop over digits
 - convert digit to int
 - accumulate the sum of the digits in a variable
+- if sum has more than two digits, repeat
 
 ## Legend
 
@@ -61,4 +62,8 @@ Examples
   - it should return a number for any input ✅
 - it should return 2 for input equal to 11 ✅
 - refactor to incorporate both numberToString and stringToNumber to the digitalRoot function ✅
-- it should return 15 for input equal to 12345 ✅
+- it should return 15 for input equal to 12345 ❌
+
+### Pomodoro 3 🍅:
+
+- it should return 6 for input equal to 12345 ✅
