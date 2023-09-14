@@ -15,14 +15,24 @@ Examples
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 ```
 
+# Domain
+
+- number
+- digits
+- input: non-negative number
+- output: single digit number
+
+## Rules
+- sum of all the digit of a number
+
+## Backlog
+
 ## Legend
 
 - 🟩 TODO
 - 🚧 IN PROGRESS
 - ✅ DONE
 - ❌ ERROR
-
-## Plans
 
 ### Pomodoro 1 🍅:
 
@@ -31,5 +41,5 @@ Examples
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
+- domain description ✅
 
-## Backlog
