@@ -22,4 +22,8 @@ describe('digitalRoot', () => {
   it('should return 6 to input equal to 12345', () => {
     expect(digitalRoot(12345)).toBe(6);
   });
+
+  it('should return 1 to input equal to 10', () => {
+    expect(digitalRoot(10)).toBe(1);
+  });
 });
