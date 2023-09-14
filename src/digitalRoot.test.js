@@ -1,4 +1,4 @@
-const { digitalRoot, numberToString, stringToNumber } = require('./digitalRoot');
+const digitalRoot = require('./digitalRoot');
 
 describe('the digitalRoot canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -17,17 +17,5 @@ describe('digitalRoot', () => {
 
   it('should return 2 to input equal to 11', () => {
     expect(digitalRoot(11)).toBe(2);
-  });
-});
-
-describe('numberToString', () => {
-  it('should return a string', () => {
-    expect(typeof numberToString(1)).toBe('string');
-  });
-});
-
-describe('stringToNumber', () => {
-  it('should return a number', () => {
-    expect(typeof stringToNumber('1')).toBe('number');
   });
 });

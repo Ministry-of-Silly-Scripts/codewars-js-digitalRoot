@@ -27,9 +27,7 @@ Examples
 
 ## Backlog
 - convert the input to string
-  - create auxiliary function that receives a number as input and return a string
 - loop over digits
-  - create auxiliary function that receives a string as input and return a number
 - convert digit to int
 - accumulate the sum of the digits in a variable
 
@@ -62,3 +60,4 @@ Examples
 - auxiliary function stringToNumber:
   - it should return a number for any input ✅
 - it should return 2 for input equal to 11 ✅
+- refactor to incorporate both numberToString and stringToNumber to the digitalRoot function ✅
