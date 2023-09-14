@@ -42,4 +42,5 @@ Examples
   - update package.json ✅
   - update code/test files ✅
 - domain description ✅
+- perform the 'canary' test just to check if the structure works ✅
 
